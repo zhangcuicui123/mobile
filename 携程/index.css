@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font: 400 14px/1.5 Tahoma, "Lucida Grande", Verdana, "Microsoft Yahei", STXihei, hei;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: none;
+    -moz-user-select: none;
+    margin: 0 auto;
+    background: #f2f2f2;
+    min-width: 320px;
+    max-width: 540px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input {
+    outline: none;
+    border: 0;
+}
+
+.search>div>span:after,
+.search>a:before {
+    background-image: url(img/ico_home.png);
+    background-size: 104px 326px;
+}
+
+.bTLRadius {
+    border-top-left-radius: 3px;
+}
+
+.bTRRadius {
+    border-top-right-radius: 3px;
+}
+
+.bBLRadius {
+    border-bottom-left-radius: 3px;
+}
+
+.bBRRadius {
+    border-bottom-right-radius: 3px;
+}
+
+#header,
+#session {
+    width: 100%;
+}
+
+.search {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0.7rem 0;
+    overflow: hidden;
+}
+
+.search>div {
+    float: left;
+    width: 85%;
+    height: 1.6rem;
+    overflow: hidden;
+    padding: 0 5px;
+    line-height: 1.6rem;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #666;
+    font-size: .76rem;
+    border: 1px solid #999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.search>div>span {
+    position: relative;
+    padding-left: 20px;
+}
+
+.search>div>span:after {
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    width: 15px;
+    height: 18px;
+    overflow: hidden;
+    background-position: -59px -276px;
+    content: "";
+}
+
+.search>a {
+    position: absolute;
+    top: 0;
+    right: 0.8rem;
+    width: 2rem;
+    height: 2.8rem;
+    text-align: center;
+    font-size: .86em;
+    color: #2EAAE0;
+    white-space: nowrap;
+}
+
+.search>a:before {
+    content: "\0020";
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    margin-left: -10px;
+    width: 24px;
+    height: 26px;
+    background-position: -59px -193px;
+}
+
+.search>a>span {
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: .86em;
+    color: #2EAAE0;
+    white-space: nowrap;
+}
+
+.banner {
+    clear: both;
+    background: url(img/banner.jpg) no-repeat center;
+    width: 100%;
+    height: 7rem;
+}
+
+.firstSes {
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+}
+
+.firstSes>li {
+    height: 5.7rem;
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+}
+
+.hotel>div,
+.hotel>ul>li {
+    background-color: #ff697a;
+}
+
+.ticket>div,
+.ticket>ul>li {
+    background-color: #3d98ff;
+}
+
+.tour>div,
+.tour>ul>li {
+    background-color: #44c522;
+}
+
+.play>ul>li {
+    background-color: #fc9720;
+    height: 2.7rem;
+    line-height: 2.7rem;
+    margin-left: 1px;
+    margin-bottom: 1px;
+}
+
+.hLeft {
+    float: left;
+    width: 30%;
+    height: 5.45rem;
+    line-height: 5.45rem;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.hRight {
+    width: 70%;
+    overflow: hidden;
+}
+
+.hRight>li {
+    float: left;
+    width: 41%;
+    height: 2.7rem;
+    line-height: 2.7rem;
+    margin-left: 1px;
+    margin-bottom: 1px;
+}
+
+.secSes {
+    width: 97%;
+    overflow: hidden;
+    margin: 0.2rem auto;
+}
+
+.secSes>li {
+    float: left;
+    width: 21.65%;
+    background: #fff;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 1px;
+}
+
+#sale,
+#popular {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 0.2rem;
+    clear: both;
+}
+
+.sec_title {
+    padding: 0 8px;
+    font-weight: normal;
+    font-size: .6em;
+    position: relative;
+    height: 2.5rem;
+}
+
+.sec_title:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0.5rem;
+    width: 5rem;
+    height: 1rem;
+    background-image: url(img/home_text.png);
+    background-repeat: no-repeat;
+    background-size: 79px auto;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.sec_title>a {
+    position: absolute;
+    right: 3.5rem;
+    top: 10px;
+    display: inline-block;
+    padding: 0 18px 0 12px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 12px;
+    background: linear-gradient(to right, #ff4e63, #ff6cc9);
+}
+
+.sale_title:after {
+    background-position: 0 0;
+    height: 1rem;
+}
+
+.pop_title:after {
+    background-position: 0 -19px;
+    height: 1rem;
+}
+
+.sec_con {
+    width: 100%;
+    overflow: hidden;
+}
+
+.con_left {
+    width: 50%;
+    background: purple;
+    height: 3rem;
+}
